@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Piazzolla:opsz,wght@8..30,200;8..30,300;8..30,400;8..30,900&family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Piazzolla', serif;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: #17252a; */
+    background: #3aafa9;
+}
+
+.app h1 {
+    font-weight: 600;
+    color: #fff;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+    
+}
+
+.question {
+    color: #fff;
+}
+
+.app {
+    /* background: #def2f1; */
+    background: #17252a;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.quiz {
+    padding: 20px 0;
+} 
+.quiz h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+button#start-quiz {
+    background: #2b7a78;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button#start-quiz:hover {
+    background-color: #2b7a77ae;
+    color: #fff;
+}
+
+.options button {
+    background: #9bbebd;
+    color: #17252a;
+    font-weight: 500;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+}
+.options button:hover:not([disabled]) {
+    background-color: #2b7a78;
+    cursor: pointer;
+    color: #fff;
+}
+.options button:disabled{
+    cursor: not-allowed;
+}
+
+.next {
+    background: #2b7a78;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+.next:hover {
+    background-color: #2b7a77ae;
+    color: #fff;
+}
+
+.correct {
+    background: #16ff7b !important;
+    color: #fff !important;
+    transition: 0.1s ease-in;
+}
+.wrong {
+    background: #ff5353 !important;
+    color: #fff !important;
+    transition: 0.1s ease-in;
+}
